@@ -6,7 +6,7 @@ import numpy as np
 pipe = pickle.load(open('pipe.pkl','rb'))
 df = pickle.load(open('df.pkl','rb'))
 st.write('<div style="display: flex; justify-content: center;">', unsafe_allow_html=True)
-st.title("LapTrends")
+st.title("LapTrends - Predict Laptop Prices !")
 st.write('</div>', unsafe_allow_html=True)
 # Create a two-column layout
 col1, col2 = st.columns(2)
